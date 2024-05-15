@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Conceptual Modeling for Life Sciences</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">CMLS@ER2024</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#topics">Topics of Interest</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#submission">Submission</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#special_issue">Special Issue</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#dates">Important Dates</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#organizers">Organizers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#committee">Committee</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#program">Program</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#collaborations">Collaborations</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header class="text-black-50" style="background-image: url('imgs/scenario_bg.jpg'); min-height: 27rem;">
+    <div class="container text-center">
+        <h1>The 5<sup>th</sup> International Workshop <br> on Conceptual Modeling for Life Sciences</h1>
+
+        <img src="imgs/logocmls2024.png" alt="Logo CMLS" class="logo-cmls" width="320">
+
+        <br><br>
+        <h3>28th October, 2024 in Pittsburgh, Pennsylvania, US</h3>
+        <!--<h4 style="color:red;opacity: 0.7;">Hybrid workshop</h4>-->
+        <!--<h3 style="color:red">Online workshop</h3>-->
+
+        <br>
+        <h4>In conjunction with the 43<sup>rd</sup> International Conference on Conceptual Modeling (<a
+                href="https://er2023.inesc-id.pt/" target="_blank">ER 2024</a>)</h4>
+        <h4>28th-31st October, 2024</h4>
+    </div>
+</header>
+
+<!--<section id="latest">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <h2>Latest news</h2>
+                <p class="text-justify lead">We are giving a <b>10-days extension</b> for the last ones! New hard deadline is
+                    <b>August 7th 2020</b>.</p>
+                <p class="text-justify lead"> Important info:
+                <ul class="lead">
+                    <li>All accepted papers will be published by Springer in the LNCS series in the usual book that
+                        collects all ER Workshop contributions
+                    </li>
+                    <li>We invite all papers accepted to the workshop to submit a revised and extended version to the
+                        <a href="https://bmcbioinformatics.biomedcentral.com">BMC Bioinformatics journal</a> for a post-conference
+                        supplement related to Conceptual Modeling in Life Sciences.
+                    </li>
+                <li>For the <b>best paper of the workshop</b> (as assessed by the evaluations of the members of the Program
+                        Committee) the <b>Article Processing Charges of the BMC Bioinformatics supplement will be fully
+                        covered</b> by the organizers (GeCo at Politecnico di Milano & PROS at Universitat Politècnica de València)
+                    </li>
+                </ul>
+                </p>
+                <p class="text-justify lead">
+                    The 1st International Workshop on Conceptual Modeling for Life Sciences is going virtual, together
+                    with the main conference <a href="https://er2020.big.tuwien.ac.at/"> ER 2020</a>.
+                    We will soon provide further details on the platforms we will use and the
+                    necessary logistics.
+                    An important note upfront – there will be free registration for non-authors, and a heavily reduced
+                    registration fee for authors presenting a paper. Registration with further details will be open on
+                    August 15, 2020.</p>
+            </div>
+
+        </div>
+    </div>
+</section>-->
+
+<!--<section id="latest">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <h2>Latest news</h2>
+                <p class="text-justify lead">Thank you for everyone who joined the workshop and to all presenters for sharing their interesting research!</p>
+                <p class="text-justify lead"> We made a compilation of the workshop presentations. You can watch it <a href="https://www.youtube.com/watch?v=-l4OUdrkVC4&list=PLfWxoOMC6swI59BOYNw0U3L2VNJ_dqSBG&ab_channel=bioinformaticspolimi">here on YouTube</a>.
+                <p class="text-justify lead">Check also the Program (at the end of the page) for slides and videos of each video (we will keep loading them as we get permission from the authors).</p>
+
+            </div>
+
+        </div>
+    </div>
+</section>-->
+
+<!--<section id="latest">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <h2>Latest news</h2>
+                <p class="text-justify lead"><b>November 11th, 2022</b>: the first articles extended from CMLS 2022
+                    papers for BMC Supplements are being published these days!
+                    Check them out here:
+                <ul>
+                    <li><a href="https://doi.org/10.1186/s12859-022-04944-z">
+                        García S., A., Costa, M., Leon, A. et al. The challenge of managing the evolution of genomics
+                        data over time: a conceptual model-based approach. BMC Bioinformatics 23 (Suppl 11), 472
+                        (2022).</a></li>
+                    <li><a href="https://doi.org/10.1186/s12911-022-02036-9">
+                        Balderas-Díaz, S., Rodríguez-Fórtiz, M.J., Garrido, J.L. et al. A psycho-educational
+                        intervention programme for parents with SGA foetuses supported by an adaptive mHealth system:
+                        design, proof of concept and usability assessment. BMC Med Inform Decis Mak 22 (Suppl 4), 291
+                        (2022).</a></li>
+                </ul>
+                Keep connected to know about the other extended papers.
+                <br>Also for CMLS 2022 we are planning a supplement on the same BMC Journals. </p>
+            </div>
+        </div>
+    </div>
+</section>
+-->
+
+
+<section id="program">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <h2>Program</h2>
+
+                TBD
+                <!--
+
+                                <p class="lead">
+
+                                <h5>The workshop will run on Monday November 6th, 2023.</h5>
+                                Please refer to the ER conference website for
+                                information on the full conference program (<a
+                                    href="https://resources.sei.cmu.edu/news-events/events/er2024/" target="_blank">ER 2024 program</a>).
+                                <br>
+                                <br>
+                                <br>
+
+                                09.45-10.00
+                                <br>Welcome and introduction to the CMLS workshop
+                                <br>
+                                <br>
+                                10.00-10.20
+                                <br>Sipan Arevshatyan, José Fabián Reyes Román, Elisa Caballero Calabuig, Mari Carmen Plancha,
+                                Alejandra
+                                Abella, Pedro Abreu and Óscar Pastor.
+                                <i>Integrating Nuclear Medicine and Radiopharmacy Data: A Conceptual Model for Precision Medicine
+                                    and
+                                    Enhanced Patient Care.</i>
+                                <br>
+                                <br>
+                                10.20-10.40
+                                <br>Mireia Costa, Alberto García, Ana León and Oscar Pastor.
+                                <i>Comprehensive Representation of Variation Interpretation Data via Conceptual Modeling.</i>
+                                <br>
+                                <br>
+                                10.40-11.00
+                                <br>Lidia Contreras-Ochando, Pere Marco Garcia, Ana León, Lluís F. Hurtado, Ferran Pla and Encarna Segarra.
+                                <i>Enhancing Precision Medicine: An Automatic Pipeline Approach for Exploring Genetic
+                                    Variant-Disease
+                                    Literature.</i>
+                                <br>
+                                <br>
+                                <h5>Coffee Break 11.00-11.30</h5>
+                                <br>11.30-11.50
+                                <br>Yasmine Anchén, Edelweis Rohrer and Regina Motz.
+                                <i>An Ontology for Breast Cancer Screening.</i>
+                                <br>
+                                <br>
+                                11.50-13.00
+                                <br><b>Invited keynote talk by Prof. Stefano Ceri</b>, Politecnico di Milano.
+                                <i>Data Modeling in life sciences, from theory to applications.</i>
+                                <br>
+                                </p>
+                            -->
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!--<section id="invited">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <h2>Invited Talk</h2>
+                <p class="text-justify lead">
+                    <img src="imgs/X.jpg" alt="stefanoceri" width="200" height="250"><br>
+                <h5>Stefano Ceri (Politecnico di Milano)</h5>
+                (see <a href="https://scholar.google.com/citations?user=aiulJmIAAAAJ&hl=en&oi=ao">Google Scholar</a>, <a
+                    href="https://ceri.faculty.polimi.it/">Personal Webpage</a>)
+                <button data-toggle="collapse" data-target="#demo"> Biography</button>
+                <br>
+                <br>
+                <div id="demo" class="collapse">
+                    Stefano Ceri is professor of Data Managenent at Politecnico di Milano, he was visiting professor at
+                    Stanford University between 1983 and 1992. He designed and then directed the Alta Scuola
+                    Politecnica. His main research interests were concerned with extending data management - by giving
+                    foundational contributions in distributed, deductive, active, object-oriented and bio-informatic
+                    data technologies - and then acting as data scientists in numerous domains - including social
+                    analytics, fake news detection, genomics for biology and for precision medicine, and recently the
+                    study of the SARS-CoV-2 viral genome.<br>
+                    With an H-Index 83 and about 35K citations on Google Scholar, he authored over 450 articles on
+                    international venues, receiving Best Paper and 10-Years awards at VLDB; he co-authored many books,
+                    including “Distributed Databases: Principles and Systems”, “Logic Programming and Databases”,
+                    “Conceptual Database Design: an Entity-Relationship Approach”, “Active Database Systems”.<br>
+                    In 1988 he was Endowment founder and first General Chair of the “Extending Database Technology”
+                    Conference. He is co-founder and shareholder of WebRatio, a development platform for Web
+                    applications based on patented technology, currently employing about 50 people. He is the recipient
+                    of two ERC AdG, “Search Computing” (2008-2013) and “data-driven Genomic Computing” (2016-2021). He
+                    received the ACM-SIGMOD "Edward T. Codd Innovation Award" (June 2013). He is an ACM Fellow, member
+                    of Academia Europeae and of Istituto Lombardo di Scienze e Lettere.
+                </div>
+
+                <br>
+                <b>Topic:</b>Data Modeling in life sciences, from theory to applications
+                <br><br>
+                <b>Talk abstract:</b>
+                Progress in life sciences is often the result of collecting huge, well-organized, high quality datasets
+                and then applying data science methods to understand their hidden messages. In this talk, Prof. Ceri
+                will report some of the results of his last ten years of research, when he discovered a strong interest
+                in life sciences. He will argue that data must be initially mastered at a conceptual level, i.e.
+                abstracted and simplified so as to become more manageable – and he will explain three data models, first
+                one for patient care targeted upon COVID-19, then two models respectively addressing the human and viral
+                genome. Prof. Ceri will then describe the process of integrating human and viral genomic data sources so
+                as to build huge data repositories, thereby facilitating and improving research projects. Finally, he
+                will discuss some new approaches, purely based upon big data and statistical methods of data science,
+                recently developed for the finding variants and recombinations in the SARS-CoV-2 genome; he will also
+                report some interesting results in other scientific domains. Most of reported work is the outcome of the
+                ERC-AdG grant “data-driven Genomic Computing” (GeCo, 2016-2021), and some follow-up projects.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>-->
+
+<section id="about">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <h2>About</h2>
+                <p class="text-justify lead">
+                    The recent advances in unraveling the secrets of human conditions and diseases have encouraged new
+                    paradigms for their prevention, diagnosis, and treatment. As information is increasing at an
+                    unprecedented rate, it directly impacts the design and future development of information and data
+                    management pipelines; thus, new ways of processing data, information, and knowledge in healthcare
+                    environments are strongly needed.<br>
+                    The fourth edition of the workshop aims to continue being a meeting point for Information Systems
+                    (IS), Conceptual Modeling (CM), and Data Management (DM) researchers working on health care and life
+                    science problems. It is also an opportunity to share, discuss and find new approaches to improve
+                    promising fields, with a <i> special focus on Genomic Data Management – how to use the information
+                    from
+                    the genome to better understand biological and clinical features – and Precision Medicine – giving
+                    to each patient an individualized treatment by understanding the peculiar aspects of the disease</i>.<br>
+                    From the precise ontological characterization of the components involved in complex biological
+                    systems to the modeling of the operational processes and decision support methods used in the
+                    diagnosis and prevention of diseases, the joined research communities of IS, CM, and DM have an
+                    important role to play; they must help in providing feasible solutions for high-quality and
+                    efficient health care.<br>
+                    The COVID-19 pandemic and the recent climate disruption have attracted increasing attention to the
+                    effects of pathogens and environmental change on human health. CMLS aims to become a forum for
+                    discussing the responsibility of the conceptual modeling community in supporting the life sciences
+                    related to these new realities.<br>
+
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="topics">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <h2>Topics of interest</h2>
+                <p class="text-justify lead">
+                    The fourth edition of the workshop focuses on Conceptual Modeling as a means for facing the
+                    challenges that emerge when designing and developing systems for life sciences, focused on genomics
+                    and precision medicine. The workshop is not restricted to specific research methods; we will
+                    consider both conceptual and empirical research, as well as novel applications.
+
+                </p>
+                <p class="text-justify lead">The topics of interest include, but are not limited to:</p>
+                <ul class="lead">
+                    <li>Conceptual modeling for genomics</li>
+                    <li>Modeling of complex biological systems and of health ecosystems</li>
+                    <li>Information systems for healthcare, genomics, or medicine of precision</li>
+                    <li>Design, implementation, and evaluation of health information systems</li>
+                    <li>Electronic/digital health information systems</li>
+                    <li>Life science-related domain specific modeling languages</li>
+                    <li>Data management and integration for genomics and biology</li>
+                    <li>Ontologies and workflows for life sciences</li>
+                    <li>Clinical and biological data interoperability</li>
+                    <li>Interoperability of health information systems</li>
+                    <li>Knowledge-representation for genetics</li>
+                    <li>Business process modeling for genetic/clinical diagnosis</li>
+                    <li>Conceptual model-driven big data analytics for genomics, clinical diagnosis or biological
+                        problems
+                    </li>
+                    <li>Conceptual models for data-driven AI systems in life sciences</li>
+                    <li>Models for digital transformation of healthcare systems</li>
+                    <li>Conceptual models in life sciences: from theory to practice</li>
+                    <li>Models to facilitate multidisciplinary exchange in healthcare contexts</li>
+                    <li>Virology-related conceptual models and their applications</li>
+                    <li>Conceptual models and information systems for fighting climate change and its effects</li>
+
+
+                </ul>
+                <!--<br>
+                <p class="text-justify lead">As we wish to stimulate more discussion in the ER community regarding the
+                    use of models for life sciences, we welcome also “discussion papers”, particularly related to the
+                    following topics:</p>
+                <ul class="lead">
+                    <li>Conceptual models in life sciences: from theory to practice</li>
+                    <li>Models to facilitate multidisciplinary exchange in healthcare contexts</li>
+                </ul>-->
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--<section id="accepted">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <h2>Accepted papers</h2>
+                <p class="text-justify lead">
+                    The list of accepted papers for CMLS 2022:</p>
+                <ul class="lead">
+                    <li>Ana Xavier Fernandes, Filipa Ferreira, Ana León and Maribel Yasmina Santos.
+                        <i>Towards a Model-driven Approach for Big Data Analytics in the Genomics Field</i>
+                    </li>
+                    <li>Mireia Costa, Alberto García S. and Oscar Pastor.
+                        <i>Conceptual Modeling-based Cardiopathies Data Management</i>
+                    </li>
+                    <li>Francisco Manuel García Moreno, Maria Bermudez-Edo, José Manuel Perez-Marmol, Jose Luis Garrido
+                        and Rodríguez Fórtiz María José.
+                        <i>A Conceptual Model of Health Monitoring Systems Centred on ADLs Performance in Elderly
+                            People</i>
+                    </li>
+                    <li>Mireia Costa, Alberto García S. and Oscar Pastor.
+                        <i>A Comparative Analysis of the completeness and concordance of data sources with
+                            cancer-associated information</i>
+                    </li>
+                    <li>Pietro Cinaglia and Mario Cannataro.
+                        <i>A Flexible Automated Pipeline Engine for Transcript-level Quantification from RNA-seq</i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+-->
+
+<section id="submission">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <h2>Paper submission guidelines</h2>
+                <p class="text-justify lead">
+                    We invite submissions of high quality papers describing original and unpublished results
+                    regarding
+                    any of the workshop’s topics of interest.
+                    <br><br>
+                    CMLS&nbsp;2023 proceedings will be part of the <a
+                        href="https://er2023.inesc-id.pt/">ER&nbsp;2023</a>
+                    Workshop volume published by Springer in the LNCS series.
+                    The authors must submit manuscripts using the Springer-Verlag LNCS style for Lecture Notes in
+                    Computer Science.
+                    For style files and details, see the page <a
+                        href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines">https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines</a>.
+                    The page limit for workshop papers is 10 pages.
+                    Papers must be submitted as PDF files using EasyChair at <a
+                        href="https://easychair.org/my/conference?conf=er2023" target="_blank">https://easychair.org/my/conference?conf=er2023</a>,
+                    choosing the track 'Workshop on Conceptual Modeling for Life Sciences'.
+                    <br><br>
+                    To ensure high quality, all papers will be thoroughly peer reviewed by the Program Committee.
+                    Manuscripts not submitted in the LNCS style or having more than 10 pages will not be reviewed
+                    and
+                    thus automatically rejected.
+                    The papers need to be original and not submitted or accepted for publication in any other
+                    workshop,
+                    conference, or journal.
+                    Submission to CMLS 2023 will be electronically only.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--<section id="cameraready">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <strike><h2>Camera-ready guidelines</h2></strike>
+                <strike><p class="text-justify lead">
+                    For the preparation of their manuscript camera-ready version, authors should consult <a
+                        href="ftp://ftp.springernature.com/cs-proceeding/svproc/guidelines/Springer_Guidelines_for_Authors_of_Proceedings.pdf">Springer’s
+                    authors’ guidelines</a>
+                    and use their <a
+                        href="https://www.springer.com/de/it-informatik/lncs/conference-proceedings-guidelines">proceedings
+                    templates</a>, either for LaTeX or for Word,
+                    for the preparation of their papers. The page limit for workshop papers is 10 pages, as for the
+                    previously submitted version.
+                    Springer encourages authors to include their ORCIDs in their papers.
+                    <br><br>
+                    In addition, the corresponding author of each paper, acting on behalf of all of the authors of that
+                    paper,
+                    must complete and sign a <a
+                        href="https://drive.google.com/file/d/1FL5_jFrqayqbPRZ2nTuNKaY55_8L8xD8/view?usp=sharing">Consent-to-Publish
+                    form</a>.
+                    The corresponding author signing the copyright form
+                    should match the corresponding author marked on the paper.
+                    Once the files have been sent to Springer, changes relating to the authorship of the papers cannot
+                    be made.
+                </p></strike>
+            </div>
+        </div>
+    </div>
+</section>
+-->
+
+
+<!--<section id="special_issue">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <h2>Post-conference publication</h2>
+                <p class="text-justify lead">
+                    The papers accepted to the workshop's last edition CMLS 2022, will be published within the Springer
+                    volume
+                    as per the usual tradition of the ER conference joint events (see last year's <a
+                        href="https://link.springer.com/book/10.1007/978-3-030-65847-2">Advances in Conceptual
+                    Modeling 2021</a>).
+                    <br>
+                    In addition, they will be invited to submit a revised and extended version
+                    for a post-conference supplement in the journal
+                    <a href="https://bmcbioinformatics.biomedcentral.com/" target="_blank"><b>BMC Bioinformatics</b></a>
+                    or a similar venue (e.g., <a href="https://bmcmedinformdecismak.biomedcentral.com/" target="_blank"><b>BMC
+                    Medical Informatics and Decision Making</b></a>),
+                    depending on the topic.
+                </p>
+                <p>
+                    The authors of accepted papers interested in submitting an extended article to a BMC
+                    supplement will need to fill, sign, scan and submit the supplement submission letter of
+                    interest.
+
+                    This document is important for us so we can know how many extended articles we will receive.
+                    <br>
+                    The authors can read the BMC Bioinformatics guidelines <a
+                        href="https://bmcbioinformatics.biomedcentral.com/submission-guidelines"
+                        target="_blank">here</a> and the BMC Medical Informatics and
+                    Decision Making guidelines <a
+                        href="https://bmcmedinformdecismak.biomedcentral.com/submission-guidelines"
+                        target="_blank">here</a>.
+                    There are no page limits for the BMC journals.
+                    The articles can be submitted on the <a hred="https://www.editorialmanager.com/supp/"
+                                                            target="_blank">BMC Supplements website</a>.
+                    <br>
+                    The submitted extended articles will go through two review phases.
+                    In the first phase, the organizers of the CMLS 2022 workshop will serve as guest editors.
+                    Some additional colleagues might be involved as additional guest editors, in case of high number of
+                    submissions.
+                    At the end of the first review phase, the guest editors will recommend the submitted extended
+                    articles for acceptance or rejection,
+                    and transfer them to the BMC journals' editor-in-chiefs who will take care of the second review
+                    phase.
+                    <br>
+                    The BMC editor-in-chiefs can decide to confirm the guest editors' recommendations or to start a new
+                    review phase (with new reviewers invited, new reviews, new requests, etc).
+                    The BMC editor-in-chief will eventually make the final decision on the acceptance or rejection of
+                    each extended manuscript.
+                    <br>
+                    Please note that, even if the guest editors suggest the acceptance for a specific paper, the BMC
+                    editor-in-chief can still decide to reject it (this case is quite rare but it can still happen).
+                    <br>
+                    Deadline. Submission of extended articles for the BMC supplements: 20 December 2022.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>-->
+
+
+<section id="dates">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <h2>Important dates</h2>
+                <p class="lead">
+                <ul class="lead">
+                    <li>Paper submission: <strike>August 2nd, 2023</strike> <b>August 9th, 2023 (extended!)</b></li>
+                    <li>Notification: <strike>September 8th, 2023</strike></li>
+                    <li>Camera-ready version: <strike>September 15th, 2023</strike></li>
+                    <li>CMLS <b>online</b> workshop date: November 6th, 2023</li>
+                    <!--                <li>ER conference dates: November 6-9th, 2023</li>-->
+                    <!--<li>Extended article submission to BMC Bioinformatics supplements: December 20th, 2022</li>-->
+                </ul>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--<section id="registration">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <h2>Registration</h2>
+                <p class="lead">
+                    The registration for the workshop is open via the <a
+                        href="https://er2020.big.tuwien.ac.at/registration/">ER website</a>.
+                    At least one of the authors for each accepted paper must have an "Author Registration" (registration
+                    fee of € 150,-.)
+                    and attend the online conference for paper presentation.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>-->
+
+<section id="organizers">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <h2>Organizers</h2>
+                <p class="lead">
+                <div class="row">
+                    <div class="col-md-4 d-flex justify-content-center">
+                        <a href="https://annabernasconi.faculty.polimi.it/"><img src="imgs/anna2022.JPG"
+                                                                                 alt="annabernasconi"
+                                                                                 width="240"></a><br>
+                    </div>
+                    <div class="col">
+                        <b>Anna Bernasconi</b>, Dipartimento di Elettronica, Informazione e Bioingegneria (DEIB)
+                        <br>Politecnico di Milano, Italy
+                        <br>anna.bernasconi@polimi.it
+                        </p>
+                        <p class="text-justify">
+                            Anna Bernasconi is a Research Fellow in the Department of Electronics, Information, and
+                            Bioengineering also at Politecnico di Milano. Her research focuses on conceptual modeling,
+                            data integration, semantic web, and biological data analysis. Since the COVID-19 pandemic,
+                            her research has moved to viral genomics, by building models, databases, and Web search
+                            systems for viral sequences and their variants. She co-organized and chaired the first three
+                            International Workshops on Conceptual Modeling for Life Sciences (CMLS 2020 / 2021 / 2022)
+                            co-located with the ER conference and co-organized the First International Workshop on Web
+                            Applications for Life Sciences (WALS 2022) co-located with the ICWE conference.
+                        <p>
+                    </div>
+                </div>
+                <br><br>
+              <!--  <p class="lead">
+                <div class="row">
+                    <div class="col-md-4 d-flex justify-content-center">
+                        <a href="https://scholar.google.com/citations?user=mb8ggU8AAAAJ"><img src="imgs/arif2020.jpg"
+                                                                                              alt="arifcanakoglu"
+                                                                                              width="240"></a><br>
+                    </div>
+                    <div class="col">
+                        <b>Arif Canakoglu</b>,
+                        Dipartimento di Anestesia, Rianimazione ed Emergenza-Urgenza,
+                        <br>Fondazione IRCCS Ca’ Granda Ospedale Maggiore Policlinico, Milan, Italy
+                        <br>arif.canakoglu@policlinico.mi.it
+                        </p>
+                        <p class="text-justify">
+                            Arif Canakoglu currently works as a data scientist at Policlinico di Milano; and he works
+                            mainly on the electronic health record of the intensive care unit's patients in the Lombardy
+                            region. He is leading the research with the support of the medical group, analyzing the life
+                            quality of the patients after the hospital discharge. Previously, he was involved in the
+                            "Data-driven Genomic Computing" ERC Awarded project (2016-2021), where he contributed to
+                            developing integration of heterogeneous genomic data and for developing computational
+                            methods for genomic applications. In 2016, he received his PhD on biomolecular knowledge
+                            data integration by using the modular schema data warehouse. His research interests include
+                            data integration and data driven genomic computing, big data analysis and processing on
+                            cloud computing, artificial intelligence applications. His main areas of expertise are
+                            heterogeneous data integration and data driven models and machine learning approaches in
+                            genomic, and big data processes, especially on cloud computing.
+                        </p>
+                    </div>
+                </div>
+                <br><br> -->
+                <p class="lead">
+                <div class="row">
+                    <div class="col-md-4 d-flex justify-content-center">
+                        <img src="imgs/alberto2023.jpeg" alt="albertogarcias" width="240"><br>
+                    </div>
+                    <div class="col">
+                        <b>Alberto García S.</b>, Research Center on Software Production Methods (PROS)
+                        <br>Universitat Politècnica de València, Spain
+                        <br>algarsi3@pros.upv.es
+                        </p>
+                        <p class="text-justify">
+                            Alberto García S. obtained his Ph.D. cum laude at Universitat Politecnica de Valencia under
+                            the supervision of Prof. Oscar Pastor. He is currently a researcher at the VRAIN research
+                            institute, where he focuses on conceptual modeling, data science, and User Interface design.
+                            He has participated in multiple research projects in collaboration with clinicians and
+                            geneticists to generate knowledge from genomics data effectively and efficiently.
+                        </p>
+                    </div>
+                </div>
+                <br><br>
+                <p class="lead">
+                <div class="row">
+                    <div class="col-md-4 d-flex justify-content-center">
+                        <img src="imgs/jose2023.png" alt="josereyes" width="240"><br>
+                    </div>
+                    <div class="col">
+                        <b>José Fabián Reyes Román</b>, Research Center on Software Production Methods (PROS)
+                        <br>Universitat Politècnica de València, Spain
+                        <br>jreyes@pros.upv.es
+                        <p class="text-justify">
+                            José F. Reyes R. is a researcher at PROS Research Center at Universitat Politècnica de
+                            València
+                            (Spain).
+                            He holds a Ph.D. in Computer Sciences (2018) from Universitat Politècnica de València (UPV,
+                            Spain),
+                            a MSc in Software Engineering, Formal Methods and Information Systems (2013) from UPV
+                            (Spain),
+                            a Diplomate of Analysts and Systems Designers (2011) and a University Degree in System
+                            Engineering
+                            (2010)
+                            from Universidad Central del Este (Dominican Republic).
+                            Currently, his main research activities are centered on the use of Conceptual Models for the
+                            development of Genomic Information Systems (GeIS).
+                            His main research interests include Conceptual Modeling, Genomic Data Science, Engineering
+                            Requirements, SE and Information Systems.
+                        </p>
+                    </div>
+                </div>
+            </div>
+</section>
+
+<section id="committee">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <h2>Program Committee</h2>
+                <p class="lead">
+
+                <ul class="lead">
+                    <li>Samuele Bovo, University of Bologna, Italy</li>
+                    <li>Bernardo Breve, Università degli Studi di Salerno, Italy</li>
+                    <li>Raffaele Calogero, University of Turin</li>
+                    <li>Stefano Ceri, Politecnico di Milano</li>
+                    <li>Pietro Cinaglia, Magna Graecia University, Italy</li>
+                    <li>Stefano Cirillo, Università degli Studi di Salerno, Italy</li>
+                    <li>Tommaso Dolci, Politecnico di Milano</li>
+                    <li>Johann Eder, University of Klagenfurt, Germany</li>
+                    <li>Jose Luis Garrido, University of Granada, Spain</li>
+                    <li>Giovanni Giachetti, Universitat Politècnica de València, Spain</li>
+                    <li>Giancarlo Guizzardi, University of Twente, Netherlands</li>
+                    <li>Francesco Invernici, Politecnico di Milano</li>
+                    <li>Khanh N.Q. Le, Taipei Medical University, Taiwan</li>
+                    <li>Sergio Lifschitz, Pontifical Catholic University of Rio de Janeiro, Brazil</li>
+                    <li>Roman Lukyanenko, HEC Montreal</li>
+                    <li>Giovanni Meroni, Technical University of Denmark</li>
+                    <li>Paolo Missier, Newcastle University, United Kingdom</li>
+                    <li>José Palazzo, Federal University of Rio Grande do Sul, Brazil</li>
+                    <li>Ignacio Panach, University of Valencia, Spain</li>
+                    <li>Oscar Pastor, Universitat Politècnica de València</li>
+                    <li>Barbara Pernici, Polytechnic University of Milan, Italy</li>
+                    <li>Pietro Pinoli, Politecnico di Milano</li>
+                    <li>Rosario Michael Piro, Polytechnic University of Milan, Italy</li>
+                    <li>Tiago Prince Sales, University of Twente, The Netherlands</li>
+                    <li>Monjoy Saha, National Cancer Institute, USA</li>
+                    <li> Veda Storey, Georgia State University</li>
+                    <li>Domenico Vito, Università degli Studi di Pavia, Italy</li>
+                    <li>Emanuel Weitschek, Uninettuno University, Italy</li>
+                </ul>
+
+                <!--
+                <li>Giuseppe Agapito, Magna Graecia University, Italy</li>
+                    <li>Mario Cannataro, Magna Graecia University, Italy</li>
+                    <li>Matteo Chiara, University of Milan</li>
+                    <li>Carlos Íñiguez-Jarrín, National Polytechnic School</li>
+                    <li>Alberto H. F. Laender, Universidade Federal de Minas Gerais</li>
+                    <li>Sudha Ram, University of Arizona</li>
+                -->
+
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--<section id="accepted">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <h2>Accepted papers</h2>
+                <p class="text-justify lead">
+               This is the list of accepted papers for CMLS 2023:</p>
+                <ul class="lead">
+                    <li>Yasmine Anchén, Edelweis Rohrer and Regina Motz. <i>An ontology for breast cancer screening.</i>
+                    </li>
+
+                    <li>Sipan Arevshatyan, José Reyes and Oscar Pastor.<i>Integrating Nuclear Medicine and Radiopharmacy
+                        Data: A Conceptual Model for Precision Medicine and Enhanced Patient Care.</i></li>
+
+                    <li>Lidia Contreras-Ochando, Ana León, Lluís F. Hurtado, Ferran Pla and Encarna Segarra.<i>Enhancing
+                        Precision Medicine: An Automatic Pipeline Approach for Exploring Genetic Variant-Disease
+                        Literature.</i></li>
+
+                    <li>Mireia Costa, Alberto García, Ana León and Oscar Pastor.<i>Comprehensive Representation of
+                        Variation Interpretation Data via Conceptual Modeling.</i></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>-->
+
+<section id="collaborations">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <h2>Collaborations</h2>
+                This workshop is supported by the data-driven Genomic Computing group at Politecnico di Milano
+                and by the VRAIN Research Center at Universitat Politecnica de Valencia (INNEST/2021/57 - Agència
+                Valenciana de la Innovació and PDC2021-121243-I00 - Spanish State Research Agency)
+                <p class="lead">
+                    <a href="http://polimi.it/"><img src="imgs/polimi_white.jpg" alt="Logo CMLS" width="240"></a>
+                    <a href="http://www.bioinformatics.deib.polimi.it/geco/" target="_blank"><img
+                            src="imgs/geco_name.png"
+                            alt="Logo GeCo"
+                            width="170"
+                            class="mr-4"></a>
+                    <a href="http://www.upv.es/"><img src="imgs/upv_white.png" alt="Logo UPV" width="140" class="mr-4"></a>
+                    <a href="http://www.pros.webs.upv.es/"><img src="imgs/pros.png" alt="Logo PROS" width="220"></a>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="py-5 bg-dark">
+    <div class="container">
+        <!--<p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>-->
+        <h1 class='text-light bg-dark'>Workshop on Conceptual Modeling for Life Sciences</h1>
+
+
+    </div>
+    <!-- /.container -->
+</footer>
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+<!-- Custom JavaScript for this theme -->
+<script src="../../../Downloads/startbootstrap-scrolling-nav-gh-pages/js/scrolling-nav.js"></script>
+
+</body>
+
+</html>
